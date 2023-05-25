@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Responsiva</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        p{
+            text-align: justify;
+        }
+
+        table{
+            border-collapse: collapse;
+        }
+
+        caption{
+            font-size: 1.2em;
+            font-weight: bolder;
+            padding: 20px;
+        }
+      
+        th,td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        tr:nth-child(even){
+            /*Adição de efeito Zebrado*/
+            background-color: lightgray;
+        }
+
+        div#conteiner{
+            
+            overflow-x: auto;
+            /*Torna a tabela responsiva*/
+        }
+
+        /*Tornando tabelas mais responsivas:
+
+- Selecionar toda a tabela <table>;
+
+- Envelopar dentro de uma <div id="container">;
+
+- Em <style>, formatar a 'div#container' com 'overflow-x: auto;'
+
+   Ex:	div#container {
+	               overflow-x: auto;	   (conteúdo base fica travado, enquanto rola a tabela lateralmente)
+	        }*/
+    </style>
+</style>
+</head>
+<body>
+    <h1>Tabelas em Telas Pequenas</h1>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut quaerat unde a at repellendus tempora velit. Nam saepe eaque dignissimos tenetur, deserunt dolores non itaque optio quis suscipit maiores est.</p>
+    <div id="conteiner">
+        <table>
+            <caption>Tabelas Responsivas</caption>
+            <thead>
+                <tr>
+                    <th>PRODUTO</th>
+                    <th>JANEIRO</th>
+                    <th>FEVEREIRO</th>
+                    <th>MARÇO</th>
+                    <th>ABRIL</th>
+                    <th>MAIO</th>
+                    <th>JUNHO</th>
+                    <th>JULHO</th>
+                    <th>AGOSTO</th>
+                    <th>SETEMBRO</th>
+                    <th>OUTUBRO</th>
+                    <th>NOVEMBRO</th>
+                    <th>DEZEMBRO</th>
+                </tr>
+            </thead>
+             <tbody>
+                    <tr>
+                        <td>TV "40"</td>
+                        <td>01</td>
+                        <td>04</td>
+                        <td>07</td>
+                        <td>05</td>
+                        <td>10</td>
+                        <td>15</td>
+                        <td>08</td>
+                        <td>11</td>
+                        <td>14</td>
+                        <td>09</td>
+                        <td>02</td>
+                        <td>16</td>
+                    </tr>
+
+                    <tr>
+                        <td>Home Thaeter</td>
+                        <td>01</td>
+                        <td>04</td>
+                        <td>07</td>
+                        <td>05</td>
+                        <td>10</td>
+                        <td>15</td>
+                        <td>08</td>
+                        <td>11</td>
+                        <td>14</td>
+                        <td>09</td>
+                        <td>02</td>
+                        <td>16</td>
+                    </tr>
+
+                    <tr>
+                        <td>Sansung Galaxy s20</td>
+                        <td>01</td>
+                        <td>04</td>
+                        <td>07</td>
+                        <td>05</td>
+                        <td>10</td>
+                        <td>15</td>
+                        <td>08</td>
+                        <td>11</td>
+                        <td>14</td>
+                        <td>09</td>
+                        <td>02</td>
+                        <td>16</td>
+                    </tr>
+
+                    <tr>
+                        <td>iPad Mini</td>
+                        <td>01</td>
+                        <td>04</td>
+                        <td>07</td>
+                        <td>05</td>
+                        <td>10</td>
+                        <td>15</td>
+                        <td>08</td>
+                        <td>11</td>
+                        <td>14</td>
+                        <td>09</td>
+                        <td>02</td>
+                        <td>16</td>
+                    </tr>
+
+                    <tr>
+                        <td>PlayStation 4</td>
+                        <td>01</td>
+                        <td>04</td>
+                        <td>07</td>
+                        <td>05</td>
+                        <td>10</td>
+                        <td>15</td>
+                        <td>08</td>
+                        <td>11</td>
+                        <td>14</td>
+                        <td>09</td>
+                        <td>02</td>
+                        <td>16</td>
+                    </tr>
+
+                    <tr>
+                        <td>Lava Louças</td>
+                        <td>01</td>
+                        <td>04</td>
+                        <td>07</td>
+                        <td>05</td>
+                        <td>10</td>
+                        <td>15</td>
+                        <td>08</td>
+                        <td>11</td>
+                        <td>14</td>
+                        <td>09</td>
+                        <td>02</td>
+                        <td>16</td>
+                    </tr>
+
+                    <tr>
+                        <td>Amazon Echo</td>
+                        <td>01</td>
+                        <td>04</td>
+                        <td>07</td>
+                        <td>05</td>
+                        <td>10</td>
+                        <td>15</td>
+                        <td>08</td>
+                        <td>11</td>
+                        <td>14</td>
+                        <td>09</td>
+                        <td>02</td>
+                        <td>16</td>
+                    </tr>
+    
+             </tbody>
+        </table>
+    </div>
+    
+</body>
+</html>
